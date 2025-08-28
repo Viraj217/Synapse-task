@@ -39,3 +39,6 @@ def main():
     for team, types in winners:
         print(f"- Team: {', '.join(team)}")
         print(f"  Types ({len(types)}): {', '.join(sorted(types))}")
+
+
+main()
